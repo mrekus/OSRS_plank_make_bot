@@ -12,12 +12,13 @@ def main():
         pyautogui.press("esc")
         time.sleep(round(uniform(0.08, 0.12), 2))
         pyautogui.press("f3")
+        time.sleep(round(uniform(0.2, 0.3), 2))
         click_log_inventory()
         time.sleep(round(uniform(0.08, 0.12), 2))
         click_bank()
-        time.sleep(round(uniform(0.08, 0.12), 2))
+        time.sleep(round(uniform(0.1, 0.2), 2))
         deposit_items()
-        time.sleep(round(uniform(0.08, 0.12), 2))
+        time.sleep(round(uniform(0.1, 0.2), 2))
 
 
 if __name__ == "__main__":
